@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Теги списки  ul-пункти ol-нумерация которые принимают в себя только тег  li тег li приниммает в себя и  ul и ol -->
+    <ul>
+        <li>
+            Hello1
+        </li>
+    
+      <li>
+            Hello2
+        </li>
+        <li>
+            Hello3
+        </li> 
+    </ul>
+    <ol type="I">
+        <li>
+            Hello1
+        </li>
+    
+      <li>
+            Hello2
+        </li>
+        <li>
+            Hello3
+        </li> 
+    </ol>
+     <!--table таблиця thead,tbody назва та наповнення таблиці tr th td куди писати текст  -->
+    <table border="4" style="width: 100%;">
+       <thead>
+        <tr>
+        <th>
+       Name
+        </th>
+        <th>
+            Second Name
+        </th>
+        <th>
+            Age
+        </th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr>
+        <td>
+         Tom
+        </td>
+        <td>
+            Hanks
+        </td>
+        <td>
+            18
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Tom
+        </td>
+        <td>
+            Holland 
+        </td>
+        <td>
+            17
+        </td>
+       </tr>
+       </tbody>
+    </table>
+    <!-- Kод на ввод данных пользователя -->
+    <form action="">
+          <p>
+            <label for="username">
+                Type username
+            </label>
+            <input placeholder="TYPE USERNAME" id="username" type="text">
+          </p> 
+          <p>
+            <label for="userpassword">
+                Type userpassword
+            </label>
+            <input placeholder="TYPE PASSWORD" id="userpassword" type="password">
+          </p> 
+          <fieldset>
+            <legend>User secret data</legend>
+            <p>
+                <label for="SecondName">
+                    Type SecondName
+                </label>
+                <input placeholder="Type SecondName" id="SecondName" type="text">
+              </p> 
+              <p>
+                <label for="secret code">
+                    Type secret code
+                </label>
+                <input placeholder="Type secret code" id="secret code" type="password">
+              </p>
+          </fieldset>
+          <p>
+            <textarea disabled cols="30" rows="10"></textarea>
+          </p>
+          <!-- Код для множественого вибора -->
+          <p>
+            <label for="audi">
+             Audi
+            </label>
+            <input type="checkbox"id="audi" value="car audi">
+            <label for="ford">
+                ford
+               </label>
+               <input type="checkbox"id="ford" value="car ford">
+               <label for="subaru">
+                subaru
+               </label>
+               <input type="checkbox"id="subaru" value="car subaru">
+              <!-- код для одного вибора -->
+          </p>
+          <p>
+            <label for="male">
+                Male  
+            </label>
+            <input type="radio" name="gender" value="male">
+            <label for="female">
+                Female  
+            </label>
+            <input type="radio" name="gender" value="female">
+            <!-- Код для свапа категорий -->
+          </p>
+          <select>
+            <option value="front-end-skill-html">Html</option>
+            <option value="front-end-skill-css">CSS</option>
+            <option value="front-end-skill-js">JS</option>
+            <option value="back-end-skill-php">PHP</option>
+          </select>
+           <br><br><br><br>
+    </form>
+</body>
+</html>
