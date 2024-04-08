@@ -1,0 +1,49 @@
+*
+{
+    text-decoration: underline;
+}
+p
+{
+    background-color: rgb(255, 0, 0);
+}
+h3,
+h4
+{
+    color: rgb(1, 192, 255);
+    background-color: rgb(0, 0, 0);
+}
+/* DRY */
+span
+{
+    color:blueviolet;
+}
+p span
+{
+    color:rgb(255, 255, 255);
+}
+header nav a
+{
+    background-color: black;
+}
+#bottom
+{
+background-color: purple;
+color: white;
+}
+.text-card
+{
+background-color:bisque ;
+color: white;
+}
+.text-card-big{
+    font-size: 20px;
+}
+ul li:first-child{
+    background-color: black;
+}
+ul li:last-child{
+    background-color: brown;
+}
+ul li:nth-child(3){
+    background: green;
+}
