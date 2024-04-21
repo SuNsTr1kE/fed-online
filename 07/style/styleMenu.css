@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f5f5;
+}
+.container{
+    width: 360px;
+    margin: 100px;
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 56px 20px 91px 20px;
+}
+.Menu-button{
+   background: none;
+   background-color: #FFF;
+   border: none; 
+}
+.menu-items{
+    padding: 0 4px;
+}
+.position-img{
+    width: 74px;
+    height: 74px;
+    border-radius: 12px;
+    background-color: #EFEFEF;
+}
+.position-title{
+    color: #C4C4C4
+}
+.menu-position{
+    display: inline-block;
+}
+
+.menu-position:hover .position-img{
+    background-color:#EAE2B7 ;
+}
+.menu-position:hover .position-title{
+    color: black;
+}
+.h3{
+    width: 65px;
+height: 24px;
+top: 371px;
+left: 24px;
+
+}
+.Big-Mac{
+width: 60px;
+height: 68.51px;
+top: 427px;
+left: 40px;
+border-radius: 10px;
+border-color: #E5E5E5; 
+}
+.KFC-Double{
+    width: 60.77px;
+    height: 55.43px;
+    top: 537px;
+    left: 40.21px;}
+    
+.Fish-Burger{
+    width: 70px;
+    height: 60px;
+    top: 639px;
+    left: 48px;   
+}

@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.container-block{
+    /* box-sizing: content-box; width=width+padding */
+    background-color: yellow;
+    width: 800px;
+    padding: 50px 100px;
+    margin:  200px auto;
+    text-align: center;
+    border-radius: 100px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    border-radius: 200px;
+    display:inline-block;
+    text-align: center;
+}
