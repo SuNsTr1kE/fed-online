@@ -10,6 +10,7 @@ body{
     border-radius: 20px;
     background-color: #FFF;
     padding: 56px 20px 91px 20px;
+    font-family: 'Inter';
 }
 .Menu-button{
    background: none;
@@ -38,6 +39,8 @@ body{
 .menu-position:hover .position-title{
     color: black;
 }
+.Burgers{
+}
 .h3{
     width: 65px;
 height: 24px;
@@ -50,8 +53,7 @@ width: 60px;
 height: 68.51px;
 top: 427px;
 left: 40px;
-border-radius: 10px;
-border-color: #E5E5E5; 
+
 }
 .KFC-Double{
     width: 60.77px;
@@ -64,4 +66,7 @@ border-color: #E5E5E5;
     height: 60px;
     top: 639px;
     left: 48px;   
+}
+.position-img.1{
+    
 }
